@@ -28,10 +28,15 @@
     height: auto;
 }
 
+.logos {
+    width: 100px;  
+    height: auto;
+}
+
 div.openPage {
     background-color: yellowgreen;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
 }
 
 .tilt-in-fwd-tr {
@@ -45,10 +50,24 @@ div.openPage {
     left: 0;
 }
 
+.openPage .anime {
+    margin-bottom: 20px;
+  }
+
+  .section {
+    display: none;
+  }
+
+  .section.active {
+    display: block;
+  }
+
+
 a.home,
 a.about,
 a.service,
-a.skill {
+a.skill,
+a.contact {
     color: #000;
     text-decoration: none;
     font-size: 8rem;
@@ -61,7 +80,8 @@ a.skill {
 a.home:hover,
 a.about:hover,
 a.service:hover,
-a.skill:hover {
+a.skill:hover,
+a.contact:hover  {
     color: yellowgreen;
     font-weight: bold;
     -webkit-text-stroke: 2px #000;
