@@ -295,12 +295,17 @@ a.contact:hover {
     a.skill,
     a.contact {
         font-size: 2.5rem;
-        margin-top: 2rem;
+        margin-top: 3rem;
+        
+    }
+
+    .mt {
+        margin-top: 5rem;
     }
 
     div.openPage {
 
-        height: 70vh;
+        height: 60vh;
     }
 }
 
