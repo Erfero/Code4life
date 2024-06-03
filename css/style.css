@@ -24,6 +24,11 @@ body {
     overflow-x: hidden;
 }
 
+.large-font {
+    font-stretch: ultra-expanded;
+    letter-spacing: 3px;
+}
+
 
 .anime {
     position: sticky;
@@ -294,7 +299,7 @@ a.contact:hover {
     a.service,
     a.skill,
     a.contact {
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin-top: 3rem;
         
     }
