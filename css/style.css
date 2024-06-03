@@ -1,4 +1,5 @@
 /********** Template CSS **********/
+
 :root {
     --primary: #6244C5;
     --secondary: #FFC448;
@@ -14,6 +15,205 @@
     z-index: 99;
 }
 
+
+/* Nouvelle modification */
+/* *********************** */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.anime {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.openPage .anime {
+    margin-bottom: 20px;
+}
+
+
+nav ul li {
+
+    list-style-type: none;
+}
+
+.mt {
+    margin-top: 10rem;
+}
+
+.color-change-5x {
+    -webkit-animation: color-change-5x 8s linear 5s infinite alternate both;
+    animation: color-change-5x 8s linear 5s infinite alternate both;
+}
+
+@-webkit-keyframes color-change-5x {
+    0% {
+        background: #19dcea;
+    }
+
+    25% {
+        background: #b22cff;
+    }
+
+    50% {
+        background: #ea2222;
+    }
+
+    75% {
+        background: #f5be10;
+    }
+
+    100% {
+        background: #3bd80d;
+    }
+}
+
+@keyframes color-change-5x {
+    0% {
+        background: #19dcea;
+    }
+
+    25% {
+        background: #b22cff;
+    }
+
+    50% {
+        background: #ea2222;
+    }
+
+    75% {
+        background: #f5be10;
+    }
+
+    100% {
+        background: #3bd80d;
+    }
+}
+
+.text-pop-up-top {
+    -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes text-pop-up-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        text-shadow: none;
+    }
+
+    100% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@keyframes text-pop-up-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        text-shadow: none;
+    }
+
+    100% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+}
+
+
+.kenburns-bottom-left {
+    -webkit-animation: kenburns-bottom-left 5s ease-out both;
+    animation: kenburns-bottom-left 5s ease-out both;
+}
+
+@-webkit-keyframes kenburns-bottom-left {
+    0% {
+        -webkit-transform: scale(1) translate(0, 0);
+        transform: scale(1) translate(0, 0);
+        -webkit-transform-origin: 16% 84%;
+        transform-origin: 16% 84%;
+    }
+
+    100% {
+        -webkit-transform: scale(1.25) translate(-20px, 15px);
+        transform: scale(1.25) translate(-20px, 15px);
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+    }
+}
+
+@keyframes kenburns-bottom-left {
+    0% {
+        -webkit-transform: scale(1) translate(0, 0);
+        transform: scale(1) translate(0, 0);
+        -webkit-transform-origin: 16% 84%;
+        transform-origin: 16% 84%;
+    }
+
+    100% {
+        -webkit-transform: scale(1.25) translate(-20px, 15px);
+        transform: scale(1.25) translate(-20px, 15px);
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+    }
+}
+
+
+.tilt-in-fwd-tl {
+	-webkit-animation: tilt-in-fwd-tl 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: tilt-in-fwd-tl 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes tilt-in-fwd-tl {
+    0% {
+      -webkit-transform: rotateY(-20deg) rotateX(35deg) translate(-300px, -300px) skew(35deg, -10deg);
+              transform: rotateY(-20deg) rotateX(35deg) translate(-300px, -300px) skew(35deg, -10deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+              transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes tilt-in-fwd-tl {
+    0% {
+      -webkit-transform: rotateY(-20deg) rotateX(35deg) translate(-300px, -300px) skew(35deg, -10deg);
+              transform: rotateY(-20deg) rotateX(35deg) translate(-300px, -300px) skew(35deg, -10deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+              transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+      opacity: 1;
+    }
+  }
+  
+  
+
+
+
+/* *********************************** */
+
+
+
+
 /* #bg {
     background-color: #000000;
     color: #FFFFFF;
@@ -24,44 +224,31 @@
 }
 
 .logo {
-    width: 100px;  
+    width: 100px;
     height: auto;
 }
 
 .logos {
-    width: 100px;  
+    width: 100px;
     height: auto;
 }
 
 div.openPage {
-    background-color: yellowgreen;
+    background-color: #ffc448;
     width: 100vw;
-    height: 110vh;
+    height: 105vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.tilt-in-fwd-tr {
-    -webkit-animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-.anime {
-    position: sticky;
-    top: 0; 
-    left: 0;
-}
-
-.openPage .anime {
-    margin-bottom: 20px;
-  }
-
-  .section {
+.section {
     display: none;
-  }
+}
 
-  .section.active {
+.section.active {
     display: block;
-  }
-
+}
 
 a.home,
 a.about,
@@ -70,7 +257,7 @@ a.skill,
 a.contact {
     color: #000;
     text-decoration: none;
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: bold;
     text-transform: uppercase;
     font-family: Arial, sans-serif;
@@ -81,60 +268,12 @@ a.home:hover,
 a.about:hover,
 a.service:hover,
 a.skill:hover,
-a.contact:hover  {
+a.contact:hover {
     color: yellowgreen;
     font-weight: bold;
     -webkit-text-stroke: 2px #000;
     color: transparent;
 }
-
-@-webkit-keyframes tilt-in-fwd-tr {
-    0% {
-        -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-        transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-        opacity: 0;
-    }
-
-    100% {
-        -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-        transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-        opacity: 1;
-    }
-}
-
-@keyframes tilt-in-fwd-tr {
-    0% {
-        -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-        transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-        opacity: 0;
-    }
-
-    100% {
-        -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-        transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-        opacity: 1;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .my-6 {
@@ -145,6 +284,35 @@ a.contact:hover  {
 .py-6 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+}
+
+
+@media (max-width: 767px) {
+
+    a.home,
+    a.about,
+    a.service,
+    a.skill,
+    a.contact {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    div.openPage {
+
+        height: 70vh;
+    }
+}
+
+@media (min-width: 992px) {
+
+    a.home,
+    a.about,
+    a.service,
+    a.skill,
+    a.contact {
+        font-size: 6rem;
+    }
 }
 
 
