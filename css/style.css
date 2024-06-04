@@ -299,7 +299,7 @@ a.contact:hover {
     a.service,
     a.skill,
     a.contact {
-        font-size: 3rem;
+        font-size: 1.8rem;
         margin-top: 3rem;
         
     }
@@ -311,6 +311,11 @@ a.contact:hover {
     div.openPage {
 
         height: 60vh;
+    }
+
+    .logos {
+        width: 25px;
+        height: auto;
     }
 }
 
