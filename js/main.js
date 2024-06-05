@@ -121,24 +121,5 @@
         loop: true,
     });
 
-    // Ajoutez votre code pour masquer et afficher les sections ici
-    document.addEventListener('DOMContentLoaded', function () {
-        showSection('home');
-    });
-
-    function showSection(sectionId) {
-        // Masquer toutes les sections
-        const sections = document.querySelectorAll('.section');
-        sections.forEach(section => {
-            section.classList.remove('active');
-        });
-
-        // Afficher la section sélectionnée
-        const activeSection = document.getElementById(sectionId);
-        if (activeSection) {
-            activeSection.classList.add('active');
-        }
-    }
-
 })(jQuery);
 
